@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/responsive.css">
+    <link rel="stylesheet" href="../CSS/reservation.css">
+    <link rel="stylesheet" href="../restaurant.html">
+    <title>Reservation</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="../img/logo.png" alt="logo"></div>
+            <li> <a href="../restaurant.html">HOME</a></li>
+            <li><a href="../restaurant.html">ABOUT</a> </li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#varities">VARITIES</a></li>
+            <li><a href="../restaurant.html">CLIENTS</a></li>
+        </ul>
+        <div class="rightnav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+<section class="reservation">
+    <div class="form_image">
+        <img src="../img/logo.png" alt="">
+    </div>
+    <div class="reser_form">
+        <form action="#">
+            <div class="user_detail">
+                <div class="input_class">
+                    <span>Full Name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>            
+                <div class="input_class">
+                    <span>Phone Number</span>
+                    <input type="text" placeholder="Enter your number" required>
+                </div>
+                <div class="input_class">
+                    <span>E-Mail</span>
+                    <input type="email" placeholder="Enter your e-mail" required>
+                </div>
+                <div class="input_class form_guests">
+                    <label for="guests">Guests</label>
+                    <select name="myguests" id="guests">
+                        <option value="one">1 Person</option>
+                        <option value="one">2 Person</option>
+                        <option value="one">3 Person</option>
+                        <option value="one">4 Person</option>
+                        <option value="one">5 Person</option>
+                        <option value="one">6 Person</option>
+                        <option value="one">7 Person</option>
+                        <option value="one">8 Person</option>
+                        <option value="one">9 Person</option>
+                        <option value="one">10 Person</option>
+                    </select>
+                </div>
+
+                <div class="input_class">
+                    <span>Check-In</span>
+                    <input type="date" placeholder="Check-In date">
+                </div>
+                <div class="input_class">
+                    <span>Check-Out</span>
+                    <input type="date" placeholder="Check-Out date">
+                </div>               
+                 <div class="input_class">
+                    <span>Rooms</span>
+                    <input type="number" placeholder="Enters Rooms">
+                </div>
+                <div class="input_class ">
+                    <span>Description</span>
+                    <textarea name="Message" id="" cols="50" rows="10" class="description"></textarea>
+                </div>
+                <div class="sub_res">
+                    <input type="submit" value="Reserve" class="submit_button">
+                    <input type="reset" value="Reset" class="submit_button">
+                </div>
+            </div>
+        </form>
+    </div>
+        
+    </div>
+</section>
+
+    <footer class="footer">
+        <div class="container4">
+            <div class="row4">
+                <div class="footer_col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#varities">Varities</a></li>
+                        <li><a href="#clients">Clients</a></li>
+                    </ul>
+                </div>
+                <div class="footer_col">
+                    <h4>Hours</h4>
+                    <span class="para1">Mon-Thur: 10:00am - 11:00pm <br>
+                        Fri-Sat: 11:00am - 5:00pm <br>
+                        Sunday Closed
+                    </span>
+                </div>
+                <div class="footer_col">
+                    <h4>Address</h4>
+                    <span class="para1">
+                        7105 Manali road <br>
+                        Baltimore,MD 21225
+                        <p>Delivery area within 3-4 miles, with minimum order of 400rs plus 20rs charge for all
+                            deliveries</p>
+                    </span>
+                </div>
+                <div class="footer_col">
+                    <h4>Follow us</h4>
+                    <div class="social_links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../javaS/resp.js">
+
+    </script>
+</body>
+</html>

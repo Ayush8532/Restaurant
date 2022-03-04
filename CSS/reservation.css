@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+.reservation{
+    display: flex;
+    width: 100%;
+    padding: 25px 30px;
+}
+.form_image{
+    width: 100%;
+
+}
+.reser_form{
+    padding: 25px 30px;
+    width: 100%;
+    background-color:lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 15%);
+    
+}
+.reservation form .user_detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+
+}
+form .user_detail .input_class{
+    margin-bottom: 20px;
+    width: calc(100%/2 - 20px);
+}
+form .input_class span{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+
+}
+.user_detail .input_class input{
+    height: 45px;
+    outline: none;
+    font-size: 16px;
+    border-radius: 25px;
+    padding-left: 15px;
+    border: 3px solid #ccc;
+    border-bottom-width: 2px;
+
+}
+.form_guests{
+    margin-top: 30px;
+} 
+#guests{
+    height: 30px;
+    border-radius: 10px;
+}
+.sub_res{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.submit_button{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 30%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    margin: 4px 4px;
+    color:rgb(255, 255, 255);
+    font-size:16px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:20px;
+    font-weight:700;
+}
+.submit_button:hover{
+    background:#CC4949;
+}
+textarea{
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+    max-width: 250px;
+}
+.description{
+
+
+}

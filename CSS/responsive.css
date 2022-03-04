@@ -1,0 +1,103 @@
+@media only screen and (max-width:1200px){
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 470px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 72px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .thumbnail1{
+        width: 100%;
+    }
+    .thumbnail1 img{
+        height: 300px;
+    }
+    .sectiontag{
+        text-align: center;
+    }
+    .textbig{
+        text-align: center;
+    }
+    .textsmall{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .learn_more{
+        text-align: center;
+    }
+    .btn2{
+        color: white;
+    }
+    .newone2{
+        color: white;
+    }
+
+
+    /**Responsive for Reservation**/
+    .reservation{
+        flex-direction: column;
+    }
+
+    .form_image{
+        justify-content: center;
+    }
+    .reser_form{
+        padding: 10px 10px;
+        width: fit-content;
+
+
+    }
+    .form_image img{
+        width: 100%;
+    }
+    .user_detail{
+        flex-direction: column;
+
+    }
+    .submit_button{
+        width: 50%;
+        padding: 0px 0px;
+
+    }
+
+}
+
+@media(max-width:767px)
+{
+    .footer_col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:574px)
+{
+    .footer_col{
+        width: 100%;
+    }
+}
